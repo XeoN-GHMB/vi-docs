@@ -1,2 +1,2 @@
 # vi-docs
-Documentation of a veriety of vi libraries
+Documentation of a variety of vi libraries
