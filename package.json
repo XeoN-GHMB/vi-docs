@@ -4,7 +4,7 @@
     "vitepress": "^1.0.0-rc.31"
   },
   "scripts": {
-    "dev": "vitepress dev",
+    "dev": "vitepress dev --port=8100",
     "build": "vitepress build",
     "preview": "vitepress preview"
   }
