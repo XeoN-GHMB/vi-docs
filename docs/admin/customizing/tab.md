@@ -68,7 +68,7 @@ adminInfo = {
                     "access" : ["root"],
                     "icon"   : "default___download",  # icon
                     "action" : "route", # type
-                    "url"    : "/dt/myview",  # our route
+                    "url"    : "/app/myview",  # our route
                     "enabled": "True" # "1" if a selection is required for activation
                 }
             },
@@ -93,7 +93,7 @@ The following call can therefore be used to create an independent tab:
 import { useRouter } from "vue-router"
 ...
 const router = useRouter()
-let route = router.resolve("/dt/myview")
+let route = router.resolve("/app/myview")
 
 dbStore.addOpened(route, null, null, 'My View', 'user')
 
