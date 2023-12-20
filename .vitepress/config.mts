@@ -3,7 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Vi Documentation",
-  description: "Documentation of a veriety of vi libraries",
+  description: "Documentation of a variety of vi libraries",
+  base:"/vi-docs/", //repo name!!!
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/icons/icon-docs.svg' }], 
   ],
