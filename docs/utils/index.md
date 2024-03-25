@@ -39,7 +39,9 @@ destroyStore(userList)
 coming soon...
 
 ## Bone rendering
-```js
+::: code-group
+
+```js:line-numbers [main.js]
 // Global Configuration in main.js of your Vue.js application 
 import { createApp } from "vue";
 
@@ -61,8 +63,9 @@ app.component("Bone", bone);
 app.component("Wrapper_nested", Wrapper_nested);
 
 app.mount("#app");
+```
 
-
+```vue:line-numbers [MyComponent.vue]
 // Example component for auto rendering
 <template>
 <div v-for="boneName in state.structure" :key="boneName">
@@ -80,7 +83,7 @@ app.mount("#app");
 
 // implement a button for example if u want to edit data after rendering
 <button @click="saveData">
-    ...
+    Save
 </button>
 </template>
 
@@ -106,13 +109,15 @@ export default {
 
         function saveData() {
             // use formData to update data on ViUR server with 'Request.securePost()'.
-            ...
+
+            // use your code here
         }
 
         onBeforeMount() {
             // use Request to update state.skellist and state.structure
             // Note: u can use component props instead and use the Request class in parent components
-            ...
+
+            // use your code here
         }
 
         return{
@@ -126,3 +131,4 @@ export default {
 </script>
 
 ```
+:::
