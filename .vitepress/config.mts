@@ -33,7 +33,7 @@ export default defineConfig({
       '/docs/utils':[
         {
           text: 'Overview',
-          link: '/docs/admin/index.md'
+          link: '/docs/utils/index.md'
         },
       ],
       '/docs/components':[
