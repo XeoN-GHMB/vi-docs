@@ -31,14 +31,10 @@ export default defineConfig({
           }
       ],
       '/docs/utils':[
-          {
-            text: 'Examples',
-            collapsed: false,
-            items: [
-              { text: 'Markdown Examples', link: '/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/api-examples' }
-            ]
-          }
+        {
+          text: 'Overview',
+          link: '/docs/admin/index.md'
+        },
       ],
       '/docs/components':[
           {

@@ -2,9 +2,9 @@
 
 The [vue-utils](https://github.com/viur-framework/vi-vue-utils) serve as an interface between the [ViUR framework](https://www.viur.dev/) and the frontend in [Vue.js](https://vuejs.org/).
 
-- [HTTP Requests](#http-requests) from ViUR backend.
-- [Login screen](#login-screen) for Vue.js applications with a ViUR backend.
-- [Auto rendering](#bone-rendering) of so called ViUR backend skeletons in a Vue.js application.
+- HTTP Requests from ViUR backend.
+- Login screen for Vue.js applications with a ViUR backend.
+- Auto rendering of so called ViUR backend skeletons in a Vue.js application.
 
 
 ## HTTP Requests
