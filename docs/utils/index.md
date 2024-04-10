@@ -6,7 +6,6 @@ The [vue-utils](https://github.com/viur-framework/vi-vue-utils) serve as an inte
 - Login screen for Vue.js applications with a ViUR backend.
 - Auto rendering of so called ViUR backend skeletons in a Vue.js application.
 
-
 ## HTTP Requests
 
 ```js
@@ -36,9 +35,11 @@ destroyStore(userList)
 ```
 
 ## Login Screen
+
 coming soon...
 
 ## Bone rendering
+
 ::: code-group
 
 ```js:line-numbers [main.js]
@@ -131,4 +132,27 @@ export default {
 </script>
 
 ```
+
 :::
+
+## Error: textbone --- ckeditor has no default export
+
+only if you use only JS and not TS
+
+in vite.config.mjs add the following code
+
+before build-Object:
+
+```js
+optimizeDeps: {
+    include: ['@viur/ckeditor5-build-classic'],
+},
+```
+
+in Build-Object add after rollupOptions
+
+```js
+commonjsOptions: {
+    include: ['@viur/ckeditor5-build-classic'],
+}
+````
