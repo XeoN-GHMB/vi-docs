@@ -6,6 +6,8 @@ The [vue-utils](https://github.com/viur-framework/vi-vue-utils) serve as an inte
 - Login screen for Vue.js applications with a ViUR backend.
 - Auto rendering of so called ViUR backend skeletons in a Vue.js application.
 
+[## Tips and tricks for your individual bones](./tips.md)
+
 ## HTTP Requests
 
 ```js
